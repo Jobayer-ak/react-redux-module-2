@@ -4,7 +4,7 @@ import { decrement, increment } from "../redux/counter/actions";
 
 const Counter = ({ count, increment, decrement, id }) => {
   return (
-    <div className="w-screen h-screen p-10 bg-gray-100 text-slate-700">
+    <div className="p-10 bg-gray-100 text-slate-700">
       <h1 className="max-w-md mx-auto text-center text-2xl font-bold">
         Simple Counter Application
       </h1>
